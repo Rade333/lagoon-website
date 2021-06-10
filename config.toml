@@ -75,8 +75,8 @@ googleAnalytics = ""
   weight = 10
 
 [[menu.main]]
-  url = "/fragments"
-  name = "Fragments"
+  url = "/features"
+  name = "Features"
   weight = 20
 
 [[menu.main]]
@@ -95,7 +95,7 @@ googleAnalytics = ""
   weight = 50
 
 [[menu.footer]]
-  url = "https://www.amazee.io"
+  url = "https://docs.lagoon.sh"
   name = "Getting Started"
   weight = 10
 

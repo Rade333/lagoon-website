@@ -1,9 +1,9 @@
 {
-  "name": "example-site",
-  "version": "0.17.4",
-  "description": "Example Site for Syna theme for Hugo",
+  "name": "lagoon.sh",
+  "version": "0.0.1",
+  "description": "Lagoon website",
   "main": "static-main/js/index.js",
-  "author": "Michael Grosser",
+  "author": "Toby Bellwood",
   "license": "Apache",
   "scripts": {
     "start": "webpack --watch --progress"
