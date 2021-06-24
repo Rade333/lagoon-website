@@ -18,17 +18,12 @@ subtitle = "The web application delivery platform for Kubernetes"
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Features"
-  url = "#features"
-  color = "dark" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-
-[[buttons]]
   text = "Getting Started"
   url = "/docs/"
   color = "primary"
 
 [[buttons]]
-  text = "Fragments"
-  url = "#fragments"
+  text = "Features"
+  url = "/features"
   color = "dark"
 +++
