@@ -1,0 +1,43 @@
+version: '2.3'
+
+x-lagoon-project:
+  # Lagoon project name (leave `&lagoon-project` when you edit this)
+  &lagoon-project nationalday
+
+
+x-environment:
+  &default-environment
+    LAGOON_PROJECT: *lagoon-project
+    # Route that should be used locally, if you are using pygmy, this route *must* end with .docker.amazee.io
+    LAGOON_ROUTE: http://lagoon-sh.docker.amazee.io
+    # Uncomment if you like to have the system behave like in production
+    #LAGOON_ENVIRONMENT_TYPE: production
+    # Uncomment to enable xdebug and then restart via `docker-compose up -d`
+    #XDEBUG_ENABLE: "true"
+
+x-user:
+  &default-user
+    # The default user under which the containers should run. Change this if you are on linux and run with another user than id `1000`
+    user: '1000'
+
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx.Dockerfile
+      args:
+        CLI_IMAGE: *lagoon-project # Inject the name of the cli image
+    labels:
+      lagoon.type: nginx
+      lando.type: nginx
+    << : *default-user # uses the defined user from top
+    environment:
+      << : *default-environment # loads the defined environment variables from the top
+      LAGOON_LOCALDEV_URL: lagoon-sh.docker.amazee.io
+    networks:
+      - amazeeio-network
+      - default
+networks:
+  amazeeio-network:
+    external: true
