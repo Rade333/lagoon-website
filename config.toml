@@ -103,7 +103,7 @@ googleAnalytics = ""
   weight = 20
 
 [[menu.copyright_footer]]
-  url = "https://twitter.com/uselagoon"
-  name = "@uselagoon on Twitter"
+  url = "https://lagoon.sh"
+  name = "Hosted on Lagoon"
   weight = 10
 
