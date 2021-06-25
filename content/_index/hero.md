@@ -19,7 +19,7 @@ subtitle = "The web application delivery platform for Kubernetes"
 
 [[buttons]]
   text = "Getting Started"
-  url = "/docs/"
+  url = "https://docs.lagoon.sh/lagoon/getting-started"
   color = "primary"
 
 [[buttons]]

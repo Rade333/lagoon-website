@@ -83,7 +83,7 @@ googleAnalytics = ""
   weight = 30
 
 [[menu.main]]
-  url = "/about"
+  url = "https://github.com/uselagoon/lagoon#lagoon---the-developer-focused-application-delivery-platform-for-kubernetes"
   name = "About"
   weight = 40
 
@@ -103,6 +103,7 @@ googleAnalytics = ""
   weight = 20
 
 [[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
+  url = "https://twitter.com/uselagoon"
+  name = "@uselagoon on Twitter"
   weight = 10
+

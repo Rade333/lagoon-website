@@ -14,4 +14,4 @@ menu_title = "Further Resources"
 
 #### Lagoon
 
-Lagoon does some stuff
+Lagoon was created by the team at amazee.io. Find more about it's origin story [here](https://www.amazee.io/blog/post/introducing-lagoon-amazee-io-s-fully-open-source-docker-in-production-system)

@@ -18,7 +18,13 @@ sticky = true
   text = "Lagoon logo"
 
 [repo_button]
-  url = "https://github.com/amazeeio/lagoon"
-  text = "Star" # default: "Star"
+  url = "https://github.com/uselagoon"
+  text = "@uselagoon" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
+
+[twitter_button]
+  url = "https://twitter.com/uselagoon"
+  text = "@uselagoon" # default: "Star"
+  icon = "fab fa-twitter" # defaults: "fab fa-github"
+
 +++

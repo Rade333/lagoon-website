@@ -6,4 +6,4 @@ weight = 10
   icon = "fas fa-laptop"
 +++
 
-Development environments are 100% congruent with production.
+Development environments are built from the same images as production, the same way!

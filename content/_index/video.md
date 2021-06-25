@@ -1,12 +1,12 @@
 +++
 fragment = "embed"
-disabled = false
+disabled = true
 date = "2017-09-09"
 weight = 250
 background = "white"
 
-title = "Embed Fragment"
-subtitle = "Easily embed media (videos, iframes etc.)"
+title = "Lagoon overview video"
+subtitle = "This is a placeholder video whilst we await a Lagoon-specific replacement"
 #title_align = "left" # Default is center, can be left, right or center
 
 media_source = "https://www.youtube-nocookie.com/embed/OhBu03mH5lY?rel=0&amp;showinfo=0"
