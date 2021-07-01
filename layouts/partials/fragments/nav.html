@@ -34,7 +34,7 @@
       {{- if .Params.search -}}
         {{- printf " justify-content-between " -}}
       {{- else -}}
-        {{- printf " justify-content-end " -}}
+        {{- printf " justify-content-start " -}}
       {{- end -}} collapse show" id="navbarCollapse">
       <ul class="navbar-nav">
         {{- if .Params.prepend -}}
@@ -126,19 +126,27 @@
       {{- end }}
     </div>
   </div>
+  {{- with .Params.slack_button }}
+    <div class="d-none d-lg-block pl-auto">
+      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Slack" -}}">
+        <i class="{{ printf "%s" .icon | default (printf "fab fa-slack") }} mr-0"></i>
+        {{ .text }}
+      </a>
+    </div>
+  {{- end }}
   {{- with .Params.twitter_button }}
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-dark ignore-color-change" href="{{ .url }}" role="button" title="{{- i18n "navbar.twitter" | default "Twitter" -}}">
-        <i class="{{ printf "%s" .icon | default (printf "fab fa-twitter") }} mr-2"></i>
-        {{ .text | default (i18n "twitter.like") }}
+      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Twitter" -}}">
+        <i class="{{ printf "%s" .icon | default (printf "fab fa-twitter") }} mr-0"></i>
+        {{ .text }}
       </a>
     </div>
   {{- end }}
   {{- with .Params.repo_button }}
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- i18n "navbar.github" | default "Github" -}}">
-        <i class="{{ printf "%s" .icon | default (printf "fab fa-github") }} mr-2"></i>
-        {{ .text | default (i18n "github.star") }}
+      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Github" -}}">
+        <i class="{{ printf "%s" .icon | default (printf "fab fa-github") }} mr-0"></i>
+        {{ .text }}
       </a>
     </div>
   {{- end }}

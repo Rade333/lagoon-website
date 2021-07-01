@@ -104,6 +104,6 @@ googleAnalytics = ""
 
 [[menu.copyright_footer]]
   url = "https://lagoon.sh"
-  name = "Hosted on Lagoon"
+  name = "Proudly hosted on Lagoon"
   weight = 10
 

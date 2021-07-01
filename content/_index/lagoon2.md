@@ -7,16 +7,18 @@ background = "white"
 align = "left"
 
 title = "Introducing Lagoon 2"
+subtitle = "The next evolution of Web Application Delivery."
+
+[asset]
+  image = "lagoon2.png"
 
 [[buttons]]
   text = "Learn more"
-  url = "#"
-  color = "dark"
+  url = "https://dev.to/uselagoon/lagoon-2-release-candidate-available-1f3l"
+  color = "secondary"
 
 [[buttons]]
-  text = "Download"
-  url = "#"
-  color = "dark"
+  text = "Check it out"
+  url = "https://github.com/uselagoon/lagoon"
+  color = "primary"
 +++
-
-The next evolution of Web Application Delivery tailored specifically for the web and it's developers.

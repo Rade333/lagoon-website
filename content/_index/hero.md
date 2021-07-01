@@ -13,8 +13,8 @@ subtitle = "The web application delivery platform for Kubernetes"
   image = "lagoon.webp"
 
 [asset]
-  image = "lagoon.svg"
-  width = "500px" # optional - will default to image width
+  image = "lagoon-logo-inline-lg-bw.png"
+  width = "750px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]

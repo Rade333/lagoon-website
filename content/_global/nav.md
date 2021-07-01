@@ -3,8 +3,8 @@ fragment = "nav"
 #disabled = true
 date = "2018-05-17"
 weight = 0
-background = "dark"
-search = true
+background = "light"
+search = false
 sticky = true
 
 [breadcrumb]
@@ -14,17 +14,27 @@ sticky = true
 
 # Branding options
 [asset]
-  image = "lagoon.svg"
+  image = "lagoon-logo-inline-sm.png"
   text = "Lagoon logo"
 
-[repo_button]
-  url = "https://github.com/uselagoon"
-  text = "@uselagoon" # default: "Star"
-  icon = "fab fa-github" # defaults: "fab fa-github"
+[slack_button]
+  url = "https://amazeeio.slack.com/"
+  text = ""
+  hover = "Slack"
+  icon = "fab fa-slack" # defaults: "fab fa-slack"
 
 [twitter_button]
   url = "https://twitter.com/uselagoon"
-  text = "@uselagoon" # default: "Star"
-  icon = "fab fa-twitter" # defaults: "fab fa-github"
+  text = ""
+  hover = "Twitter"
+  icon = "fab fa-twitter" # defaults: "fab fa-twitter"
+
+[repo_button]
+  url = "https://github.com/uselagoon"
+  text = ""
+  hover = "Github"
+  icon = "fab fa-github" # defaults: "fab fa-github"
+
+
 
 +++
