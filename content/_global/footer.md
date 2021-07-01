@@ -8,7 +8,7 @@ background = "white"
 menu_title = "Further Resources"
 
 [asset]
-  image = "lagoon.svg"
+  image = "lagoon-logo-inline-sm.png"
   text = "Lagoon Logo"
 +++
 

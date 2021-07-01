@@ -3,14 +3,14 @@ fragment = "hero"
 #disabled = true
 date = "2016-09-07"
 weight = 50
-background = "light" # can influence the text color
+background = "dark" # can influence the text color
 particles = false
 
 title = "Lagoon"
-subtitle = "The web application delivery platform for Kubernetes"
+subtitle = "The web application delivery</br>platform for Kubernetes"
 
 [header]
-  image = "lagoon.webp"
+  image = "Lagoon-Website-Image.jpg"
 
 [asset]
   image = "lagoon-logo-inline-lg-bw.png"
@@ -20,7 +20,7 @@ subtitle = "The web application delivery platform for Kubernetes"
 [[buttons]]
   text = "Getting Started"
   url = "https://docs.lagoon.sh/lagoon/getting-started"
-  color = "primary"
+  color = "light"
 
 [[buttons]]
   text = "Features"

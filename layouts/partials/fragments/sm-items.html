@@ -23,9 +23,9 @@
                   ">
                 {{- end }}
                 {{- if .image }}
-                  <img src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.title }}">
+                  <img src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.hover }}">
                 {{- else if .icon }}
-                  <span class="fa-stack fa-3x m-2" title="{{ .text | default $item.title }}">
+                  <span class="fa-stack fa-3x m-2" title="{{ .text | default $item.hover }}">
                     <i class="fas fa-circle fa-stack-2x
                       {{- if eq $bg "primary" -}}
                         {{- print " text-dark" -}}
@@ -34,7 +34,7 @@
                       {{- end -}}
                     "></i>
                     <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
-                    <span class="sr-only">{{ .text | default $item.title }}</span>
+                    <span class="sr-only">{{ .text | default $item.hover }}</span>
                   </span>
                 {{- end -}}
                 {{- if and $item.asset $item.asset.url }}

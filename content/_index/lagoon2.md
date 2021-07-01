@@ -18,7 +18,7 @@ subtitle = "The next evolution of Web Application Delivery."
   color = "secondary"
 
 [[buttons]]
-  text = "Check it out"
+  text = "Download"
   url = "https://github.com/uselagoon/lagoon"
   color = "primary"
 +++
