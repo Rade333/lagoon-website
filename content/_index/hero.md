@@ -10,10 +10,10 @@ title = "Lagoon"
 subtitle = "The web application delivery</br>platform for Kubernetes"
 
 [header]
-  image = "Lagoon-Website-Image.jpg"
+  image = "Lagoon-Website-Image.webp"
 
 [asset]
-  image = "lagoon-logo-inline-lg-bw.png"
+  image = "Lagoon-Horizontal-Logo-White.svg"
   width = "750px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 

@@ -10,7 +10,7 @@ title = "Introducing Lagoon 2"
 subtitle = "The next evolution of Web Application Delivery."
 
 [asset]
-  image = "lagoon2.png"
+  image = "Lagoon-2-FC.svg"
 
 [[buttons]]
   text = "Learn more"

@@ -14,7 +14,7 @@ sticky = true
 
 # Branding options
 [asset]
-  image = "lagoon-logo-inline-sm.png"
+  image = "Lagoon-Horizontal-Logo-Full-Colour.svg"
   text = "Lagoon logo"
 
 [slack_button]

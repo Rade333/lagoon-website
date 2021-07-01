@@ -8,10 +8,10 @@ background = "white"
 menu_title = "Further Resources"
 
 [asset]
-  image = "lagoon-logo-inline-sm.png"
+  image = "Lagoon-Horizontal-Logo-Full-Colour.svg"
   text = "Lagoon Logo"
 +++
 
 #### Lagoon
 
-Lagoon was created by the team at amazee.io. Find more about it's origin story [here](https://www.amazee.io/blog/post/introducing-lagoon-amazee-io-s-fully-open-source-docker-in-production-system)
+Lagoon was created by the team at [amazee.io](https://www.amazee.io). Find out more in its origin story [here](https://www.amazee.io/blog/post/introducing-lagoon-amazee-io-s-fully-open-source-docker-in-production-system)
