@@ -16,3 +16,5 @@ summary = """Lagoon maintains a per-environment database of "problems", issues d
 +++
 
 Lagoon maintains a per-environment database of "problems", issues discovered -- typically automatically -- with running environments. These problems are assigned severity levels and, where possible, are linked to the originating CVE or project issue.
+
+Part of the *[Lagoon Insights](../lagoon-insights)* tool suite.

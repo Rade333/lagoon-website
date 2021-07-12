@@ -7,7 +7,7 @@ title = "List of all features available in Lagoon"
 
 #sort = "categories"
 background = "light"
-count = 30 # Default value is 10
+count = 99 # Default value is 10
 #summary = false # Default value is true
 images = false # Default value is true
 #read_more = true # Default value is empty (empty: show when content is truncated, false to never show, true to always show)
