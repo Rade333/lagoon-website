@@ -9,7 +9,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
 
 # Google Analytics tracking
-googleAnalytics = ""
+googleAnalytics = "G-QN0G2JGKSP"
 
 [outputs]
   home = ["HTML", "JSON"]
