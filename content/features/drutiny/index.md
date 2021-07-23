@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "Only Deploy Specific Branches"
+title = "Drutiny Integration"
 #subtitle = ""
 title_align = "left"
 
