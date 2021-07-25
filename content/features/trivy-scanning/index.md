@@ -4,15 +4,14 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "Only Deploy Specific Branches"
+title = "Trivy Image Scanning"
 #subtitle = ""
 title_align = "left"
 
-summary = """Lagoon is fully configurable to only deploy the branches and pull/merge requests you want it to. A simple regex is all that’s needed, and each the number of concurrent development environments can be configured per project."""
+summary = """Lagoon supports Harbor’s integration with the Trivy Image scanner. Each environment image is scanned on creation against the latest vulnerability databases. Any vulnerabilities can be stored inside Lagoon as [Problems](./problems). """
 
 [sidebar]
   align = "right"
 
 +++
-
-Lagoon is fully configurable to only deploy the branches and pull/merge requests you want it to. A simple regex is all that’s needed, and each the number of concurrent development environments can be configured per project.
+Lagoon supports Harbor’s integration with the Trivy Image scanner. Each environment image is scanned on creation against the latest vulnerability databases. Any vulnerabilities can be stored inside Lagoon as [Problems](../problems). 

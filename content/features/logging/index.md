@@ -16,5 +16,3 @@ summary = """Lagoon supports the sending of Logs to a number of external cloud m
 +++
 
 Lagoon supports the sending of Logs to a number of external cloud monitoring services, including SumoLogic, Splunk, DataDog and Cloudwatch, but can be extended to any provider with a Fluentd output plugin.
-
-Part of the *[Lagoon Insights](../lagoon-insights)* tool suite.
