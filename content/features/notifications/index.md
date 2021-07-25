@@ -14,5 +14,4 @@ summary = """Lagoon supports sending a range of notifications to Slack, RocketCh
   align = "right"
 
 +++
-
 Lagoon supports sending a range of notifications to Slack, RocketChat, Email, Microsoft Teams and Webhooks. These notifications can be configured to send to specific channels or addresses, and can be actioned on different events.
