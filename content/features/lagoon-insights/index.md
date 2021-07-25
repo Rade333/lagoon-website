@@ -8,7 +8,7 @@ title = "Lagoon Insights"
 #subtitle = ""
 title_align = "left"
 
-summary = """A suite of tools for managing, observing and maintaining Lagoon environments. This includes the [Problems](./problems), Facts, and [Metadata](./problems) features."""
+summary = """A suite of tools for managing, observing and maintaining Lagoon environments. This includes the [Problems](./problems), Facts, and [Metadata](./metadata) features."""
 
 [sidebar]
   align = "right"
