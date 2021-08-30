@@ -16,3 +16,5 @@ summary = """Lagoon is tightly integrated with Harbor, the Image Registry. For e
 +++
 
 Lagoon is tightly integrated with Harbor, the Image Registry. For each environment that is created in Lagoon, a corresponding image repository is created to store the built images for use in Lagoon builds. This image registry is installed alongside Lagoon (either centrally, or per-cluster).
+
+Read more in our [documentation](https://docs.lagoon.sh/lagoon/administering-lagoon/using_harbor).

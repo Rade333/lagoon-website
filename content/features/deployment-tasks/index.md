@@ -15,3 +15,5 @@ summary = """Lagoon has the ability to define set tasks to perform during the de
 
 +++
 Lagoon has the ability to define set tasks to perform during the deployment phase, which could include pre-deployment backups, post-rollout tasks/updates/checks etc. These are all defined inside the project’s own git repository, so are 100% customizable.
+
+Read more in our [documentation](https://docs.lagoon.sh/lagoon/using-lagoon-the-basics/lagoon-yml#tasks).

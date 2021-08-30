@@ -15,4 +15,3 @@ summary = """Lagoon has a full-featured UI, built in React, integrated with the 
 
 +++
 Lagoon has a full-featured UI, built in React, integrated with the permission system to show the status of projects, environments and deployments.
-
