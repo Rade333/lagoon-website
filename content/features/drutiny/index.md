@@ -15,4 +15,4 @@ summary = """Lagoon is able to consume site audit information from Drutiny, a Dr
 
 +++
 
-Lagoon is able to consume site audit information from Drutiny, a Drupal audit utility, when used in combination with the Lagoon Drutiny plugin. The results from Drutiny audits are stored in the Problems system.
+Lagoon is able to consume site audit information from Drutiny, a Drupal audit utility, when used in combination with the Lagoon Drutiny plugin. The results from Drutiny audits are stored in the [Problems](../problems) system.

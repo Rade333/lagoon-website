@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = ["Released"]
+categories = ["Coming Soon"]
 
 title = "Deploy to Multiple Clusters"
 #subtitle = ""
