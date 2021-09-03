@@ -5,7 +5,7 @@ weight = 100
 categories = ["Released"]
 tags = ['Git', 'version control']
 
-title = "Completely Free Git Repository Structure"
+title = "Flexible Git Repository Structure"
 #subtitle = ""
 title_align = "left"
 

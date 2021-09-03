@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "Local development environment 'same' as production"
+title = "Prod-like local dev environments"
 #subtitle = ""
 title_align = "left"
 

@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "Logical Project and Environment Naming Convention"
+title = "Simple Naming Convention"
 #subtitle = ""
 title_align = "left"
 
