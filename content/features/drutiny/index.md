@@ -8,11 +8,11 @@ title = "Drutiny Integration"
 #subtitle = ""
 title_align = "left"
 
-summary = """Lagoon is fully configurable to only deploy the branches and pull/merge requests you want it to. A simple regex is all that’s needed, and each the number of concurrent development environments can be configured per project."""
+summary = """Lagoon is able to consume site audit information from Drutiny, a Drupal audit utility, when used in combination with the Lagoon Drutiny plugin. The results from Drutiny audits are stored in the Problems system."""
 
 [sidebar]
   align = "right"
 
 +++
 
-Lagoon is fully configurable to only deploy the branches and pull/merge requests you want it to. A simple regex is all that’s needed, and each the number of concurrent development environments can be configured per project.
+Lagoon is able to consume site audit information from Drutiny, a Drupal audit utility, when used in combination with the Lagoon Drutiny plugin. The results from Drutiny audits are stored in the [Problems](../problems) system.

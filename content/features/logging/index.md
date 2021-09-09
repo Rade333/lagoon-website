@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = """Log dispatch to external cloud monitoring and log management services"""
+title = """Log dispatch to external cloud services"""
 #subtitle = ""
 title_align = "left"
 
