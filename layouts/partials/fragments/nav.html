@@ -126,10 +126,10 @@
       {{- end }}
     </div>
   </div>
-  {{- with .Params.slack_button }}
+  {{- with .Params.discord_button }}
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Slack" -}}">
-        <i class="{{ printf "%s" .icon | default (printf "fab fa-slack") }} mr-0"></i>
+      <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Discord" -}}">
+        <i class="text-primary fa-2x {{ printf "%s" .icon | default (printf "fab fa-discord") }} mr-0"></i>
         {{ .text }}
       </a>
     </div>
@@ -137,7 +137,7 @@
   {{- with .Params.twitter_button }}
     <div class="d-none d-lg-block pl-auto">
       <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Twitter" -}}">
-        <i class="{{ printf "%s" .icon | default (printf "fab fa-twitter") }} mr-0"></i>
+        <i class="text-primary fa-2x {{ printf "%s" .icon | default (printf "fab fa-twitter") }} mr-0"></i>
         {{ .text }}
       </a>
     </div>
@@ -145,7 +145,7 @@
   {{- with .Params.repo_button }}
     <div class="d-none d-lg-block pl-auto">
       <a class="btn btn-light ignore-color-change" href="{{ .url }}" role="button" title="{{- .hover | default "Github" -}}">
-        <i class="{{ printf "%s" .icon | default (printf "fab fa-github") }} mr-0"></i>
+        <i class="text-primary fa-2x {{ printf "%s" .icon | default (printf "fab fa-github") }} mr-0"></i>
         {{ .text }}
       </a>
     </div>

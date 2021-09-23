@@ -17,22 +17,22 @@ sticky = true
   image = "Lagoon-Horizontal-Logo-Full-Colour.svg"
   text = "Lagoon logo"
 
-[slack_button]
-  url = "https://amazeeio.slack.com/"
+[discord_button]
+  url = "https://discord.gg/te5hHe95JE"
   text = ""
-  hover = "Slack"
-  icon = "fab fa-slack" # defaults: "fab fa-slack"
+  hover = "Join our Discord server"
+  icon = "fab fa-discord" # defaults: "fab fa-discord"
 
 [twitter_button]
   url = "https://twitter.com/uselagoon"
   text = ""
-  hover = "Twitter"
+  hover = "Follow us on Twitter"
   icon = "fab fa-twitter" # defaults: "fab fa-twitter"
 
 [repo_button]
   url = "https://github.com/uselagoon"
   text = ""
-  hover = "Github"
+  hover = "See our code on Github"
   icon = "fab fa-github" # defaults: "fab fa-github"
 
 
