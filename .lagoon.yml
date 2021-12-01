@@ -3,9 +3,9 @@ docker-compose-yaml: docker-compose.yml
 environment_variables:
   git_sha: 'true'
 
-# environments:
-#  main:
-#    routes:
-#      - nginx:
+environments:
+  main:
+    routes:
+      - nginx:
+        - lagoon.sh
 #        - www.lagoon.sh
-#        - lagoon.sh
