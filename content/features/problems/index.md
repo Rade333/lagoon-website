@@ -18,4 +18,4 @@ Lagoon maintains a per-environment database of "problems." issues discovered—t
 
 Our primary Problem source is Lagoon's integration with Harbor's image scanning system (which uses Trivy under the hood). Whenever a site is deployed, the latest resulting images that are run in Lagoon are scanned for any known vulnerabilities. These are then exposed both in the Lagoon UI and, optionally, as a notification using our notification system.
 
-Part of the *[Lagoon Insights](../lagoon-insights)* tool suite.
+Part of the *[Lagoon Insights](./lagoon-insights)* tool suite.

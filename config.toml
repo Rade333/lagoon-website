@@ -7,6 +7,9 @@ theme = "syna"
 enableGitInfo = false
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
+uglyurls = true
+[permalinks]
+  post = ":filename"
 
 # Google Analytics tracking
 googleAnalytics = "G-QN0G2JGKSP"
@@ -75,7 +78,7 @@ googleAnalytics = "G-QN0G2JGKSP"
   weight = 10
 
 [[menu.main]]
-  url = "/features/"
+  url = "/features"
   name = "Features"
   weight = 20
 
