@@ -38,6 +38,7 @@ services:
     networks:
       - amazeeio-network
       - default
+
 networks:
   amazeeio-network:
     external: true

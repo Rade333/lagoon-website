@@ -8,6 +8,8 @@ enableGitInfo = false
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
 uglyurls = true
+#ignoreErrors = ["error-remote-getjson"]
+
 [permalinks]
   post = ":filename"
 

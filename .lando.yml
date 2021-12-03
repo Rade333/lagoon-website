@@ -1,0 +1,7 @@
+name: lagoon-website
+recipe: lagoon
+config:
+  flavor: nginx
+services:
+  nginx:
+    app_mount: false

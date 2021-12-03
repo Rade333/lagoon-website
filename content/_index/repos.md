@@ -9,7 +9,7 @@ user = "uselagoon"
 count = 6 # default is 4
 display_forks = false # default is false
 sort = "stargazers_count" # default is "stargazers_count"
-allowlist = ["community", "lagoon", "lagoon-images", "lagoon-charts", "lagoon-cli", "lagoon-sync"]
+allowlist = ["lagoon", "lagoon-images", "lagoon-examples", "lagoon-charts", "lagoon-cli", "lagoon-sync"]
 
 +++
 
