@@ -14,7 +14,7 @@ subtitle = "The next evolution of Web Application Delivery."
 
 [[buttons]]
   text = "Learn more"
-  url = "https://dev.to/uselagoon/lagoon-2-release-candidate-available-1f3l"
+  url = "https://dev.to/uselagoon/lagoon-2-0-0-released-hil"
   color = "secondary"
 
 [[buttons]]
