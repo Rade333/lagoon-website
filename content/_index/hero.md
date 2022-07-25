@@ -24,6 +24,6 @@ subtitle = "The web application delivery</br>platform for Kubernetes"
 
 [[buttons]]
   text = "Features"
-  url = "/features"
+  url = "/features/"
   color = "dark"
 +++
