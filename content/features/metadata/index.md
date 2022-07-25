@@ -17,4 +17,4 @@ summary = """Lagoon supports the addition of client-provided metadata at the pro
 
 Lagoon supports the addition of client-provided metadata at the project level. This helps customers with multiple projects store additional information alongside the sites, and this information can be easily queried. Metadata support was contributed by the Lagoon community.
 
-Part of the *[Lagoon Insights](./lagoon-insights)* tool suite.
+Part of the *[Lagoon Insights](../lagoon-insights)* tool suite.

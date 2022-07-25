@@ -1,7 +1,7 @@
 +++
 fragment = "sm-items"
-weight = 800
-background = "light"
+weight = 500
+background = "white"
 
 title = "Supported frameworks"
 +++

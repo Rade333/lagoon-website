@@ -7,7 +7,7 @@ theme = "syna"
 enableGitInfo = false
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
-uglyurls = true
+uglyurls = false
 #ignoreErrors = ["error-remote-getjson"]
 
 [permalinks]
@@ -82,22 +82,22 @@ googleAnalytics = "G-QN0G2JGKSP"
 [[menu.main]]
   url = "/features"
   name = "Features"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   url = "https://docs.lagoon.sh"
   name = "Docs"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   url = "https://github.com/uselagoon/lagoon#lagoon---the-developer-focused-application-delivery-platform-for-kubernetes"
   name = "About"
-  weight = 40
+  weight = 50
 
 [[menu.main]]
   url = "https://dev.to/uselagoon"
   name = "Blog"
-  weight = 50
+  weight = 60
 
 [[menu.footer]]
   url = "https://docs.lagoon.sh"

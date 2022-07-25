@@ -1,6 +1,6 @@
 +++
 fragment = "sm-items"
-weight = 800
+weight = 400
 background = "light"
 
 title = "Supported languages"
