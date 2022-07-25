@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = ["Coming Soon"]
+categories = ["Released"]
 
 title = "Lagoon Workflows"
 #subtitle = ""
