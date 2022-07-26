@@ -82,6 +82,11 @@ googleAnalytics = "G-QN0G2JGKSP"
 [[menu.main]]
   url = "/features/"
   name = "Features"
+  weight = 20
+
+[[menu.main]]
+  url = "/applications/"
+  name = "Applications"
   weight = 30
 
 [[menu.main]]
@@ -113,3 +118,6 @@ googleAnalytics = "G-QN0G2JGKSP"
   url = "https://lagoon.sh"
   name = "Proudly hosted on Lagoon"
   weight = 10
+
+[minify]
+disableJS = true
