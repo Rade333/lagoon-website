@@ -166,8 +166,6 @@ subtitle = "Find the examples, documentation and more here:"
     url = "https://www.github.com/lagoon-examples/ruby-on-rails"
 
   [[rows.values]]
-    icon = "fas fa-book"
-    url = "https://docs.lagoon.sh/applications/ruby"
 
 [[rows]]
   [[rows.values]]
@@ -236,6 +234,28 @@ subtitle = "Find the examples, documentation and more here:"
   [[rows.values]]
     icon = "fas fa-book"
     url = "https://docs.lagoon.sh/applications/python"
+
+[[rows]]
+  [[rows.values]]
+    header = "Ruby"
+
+  [[rows.values]]
+    text = "Language"
+
+  [[rows.values]]
+    text = "Ruby"
+
+  [[rows.values]]
+    text = "Base Images"
+
+  [[rows.values]]
+    text = "Maintained"
+
+  [[rows.values]]
+
+  [[rows.values]]
+    icon = "fas fa-book"
+    url = "https://docs.lagoon.sh/applications/ruby"
 
 +++
 ## Table of supported Applications, Languages and Frameworks {#Table}
