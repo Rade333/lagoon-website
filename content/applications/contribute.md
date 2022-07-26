@@ -7,7 +7,7 @@ background = "light"
 align = "left"
 
 [asset]
-  icon = "fab fa-lightbulb-o"
+  icon = "fa fa-lightbulb"
 
 +++
 ## Contribute

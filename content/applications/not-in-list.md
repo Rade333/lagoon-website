@@ -7,7 +7,7 @@ background = "white"
 align = "right"
 
 [asset]
-  icon = "fab fa-question"
+  icon = "fa fa-question"
 
 +++
 ## Your Application/Framework/Language not in the list?
