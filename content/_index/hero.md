@@ -10,7 +10,7 @@ title = "Lagoon"
 subtitle = "The web application delivery</br>platform for Kubernetes"
 
 [header]
-  image = "Lagoon-Website-Image.webp"
+  image = "lagoon-hero-optimised.webp"
 
 [asset]
   image = "Lagoon-Horizontal-Logo-White.svg"
