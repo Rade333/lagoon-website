@@ -7,6 +7,13 @@ It is built in [Hugo](https://gohugo.io/) using the [Syna Theme](https://themes.
 
 # Development
 
+1. Clone this repository
+2. Init submodules
+    ```
+    git submodule init
+    git submodule update
+    ```
+
 Local development can be done using the Hugo cli `hugo server --disableFastRender -D`,
 and the project can be started in Docker locally `docker-compose up -d`.
 
