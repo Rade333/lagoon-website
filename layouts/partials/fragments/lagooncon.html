@@ -1,0 +1,17 @@
+{{- $self := . -}}
+{{- $page_scratch := .page_scratch -}}
+{{- $bg := .self.Scratch.Get "bg" }}
+
+{{- "<!-- LagoonCon -->" | safeHTML -}}
+<nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy
+  {{- printf " bg-%s" $bg -}}
+  {{- if or (eq $bg "light") (eq $bg "white") (eq $bg "secondary") -}}
+    {{- printf " navbar-%s" "light" -}}
+  {{- else -}}
+    {{- printf " navbar-%s" "dark" -}}
+  {{- end -}}
+" id="{{ .Name }}" role="navigation">
+  <div class="container" style="justify-content: space-around">
+    <a href="https://www.amazee.io/events/lagooncon-2023" style="color: inherit; text-decoration: inherit;"><span style="text-decoration: underline;">Join us at LagoonCon</span>, on June 6th at 6 PM EDT, to learn about modern application delivery platforms for Kubernetes!</a>
+  </div>
+</nav>
