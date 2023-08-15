@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = [Released"]
+categories = ["Released"]
 
 title = "Drutiny Integration"
 #subtitle = ""
@@ -14,5 +14,4 @@ summary = """Lagoon is able to consume site audit information from Drutiny, a Dr
   align = "right"
 
 +++
-
 Lagoon is able to consume site audit information from Drutiny, a Drupal audit utility, when used in combination with the Lagoon Drutiny plugin. The results from Drutiny audits are stored in the [Problems](../problems/) system.
