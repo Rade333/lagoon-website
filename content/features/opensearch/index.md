@@ -8,10 +8,14 @@ title = "OpenSearch"
 #subtitle = ""
 title_align = "left"
 
-summary = """Preference for OpenSearch as an alternative to Elasticsearch (or Open Distro)."""
+summary = """Lagoon fully supports Opensearch (and Opensearch Dashboards) as the logging service for a Lagoon cluster. Lagoon also currently has backwards compatitble support for OpenDistro and Elasticsearch, although these are no longer recommended for use, and Lagoon may not be compatible with all versions.
+
+Lagoon also provides Opensearch images for use in projects, and has created a Drupal example using the correct plugin."""
 
 [sidebar]
   align = "right"
 
 +++
-Preference for OpenSearch as an alternative to Elasticsearch (or Open Distro).
+Lagoon fully supports Opensearch (and Opensearch Dashboards) as the logging service for a Lagoon cluster. Lagoon also currently has backwards compatitble support for OpenDistro and Elasticsearch, although these are no longer recommended for use, and Lagoon may not be compatible with all versions.
+
+Lagoon also provides Opensearch images for use in projects, and has created a Drupal example using the correct plugin.

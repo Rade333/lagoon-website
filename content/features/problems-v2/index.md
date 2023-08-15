@@ -8,10 +8,10 @@ title = "Problems v2"
 #subtitle = ""
 title_align = "left"
 
-summary = """Problems generated from the new fact sources (SBOMS, scans etc)."""
+summary = """Problems can now be generated from the new fact sources - covering SBOM analysis, fact gathering tools, and audit packages."""
 
 [sidebar]
   align = "right"
 
 +++
-Problems generated from the new fact sources (SBOMS, scans etc).
+Problems can now be generated from the new fact sources - covering SBOM analysis, fact gathering tools, and audit packages.

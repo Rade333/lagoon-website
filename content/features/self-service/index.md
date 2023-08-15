@@ -8,10 +8,10 @@ title = "Self-Service"
 #subtitle = ""
 title_align = "left"
 
-summary = """Info here."""
+summary = """More and more Lagoon features are now able to be controlled by the users of the platform, depending on their RBAC levels. This includes the management of Organizations, visual management of variables, and a number of other convenience functions. The Lagoon team continually reviews the premissions required to perform actions and ensures that they are set in-line with the expected use of the platform."""
 
 [sidebar]
   align = "right"
 
 +++
-Info here.
+More and more Lagoon features are now able to be controlled by the users of the platform, depending on their RBAC levels. This includes the management of Organizations, visual management of variables, and a number of other convenience functions. The Lagoon team continually reviews the premissions required to perform actions and ensures that they are set in-line with the expected use of the platform.
