@@ -13,9 +13,6 @@ uglyurls = false
 [permalinks]
   post = ":filename"
 
-# Google Analytics tracking
-googleAnalytics = "G-QN0G2JGKSP"
-
 [outputs]
   home = ["HTML", "JSON"]
 
