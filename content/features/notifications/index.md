@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 100
 #background = ""
-categories = ["Updated 2021"]
+categories = ["Updated 2024"]
 
 title = "Notifications"
 #subtitle = ""
