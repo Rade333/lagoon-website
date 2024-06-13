@@ -90,7 +90,7 @@ subtitle = "Find the examples, documentation and more here:"
     text = "PHP"
 
   [[rows.values]]
-    text = "Starter template"
+    text = "Example Project"
 
   [[rows.values]]
     text = "Maintained"
