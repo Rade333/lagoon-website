@@ -13,9 +13,6 @@ uglyurls = false
 [permalinks]
   post = ":filename"
 
-# Google Analytics tracking
-googleAnalytics = "G-QN0G2JGKSP"
-
 [outputs]
   home = ["HTML", "JSON"]
 
@@ -125,4 +122,4 @@ googleAnalytics = "G-QN0G2JGKSP"
   weight = 10
 
 [minify]
-disableJS = false
+disableJS = true
