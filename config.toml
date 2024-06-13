@@ -125,4 +125,4 @@ googleAnalytics = "G-QN0G2JGKSP"
   weight = 10
 
 [minify]
-disableJS = true
+disableJS = false
