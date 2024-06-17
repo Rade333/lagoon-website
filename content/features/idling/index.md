@@ -4,17 +4,15 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "GraphQL API"
+title = "Idling"
 #subtitle = ""
 title_align = "left"
 
-summary = """Lagoon features a full GraphQL API, protected with strong Role Based Access Control to give users full control over projects, environments, users and groups."""
+summary = """Lagoon has a highly configurable idling capability, allowing for development environments to be idled when not in use, and automatically un-idled when required."""
 
 [sidebar]
   align = "right"
 
 +++
 
-Lagoon features a full GraphQL API, protected with strong Role Based Access Control to give users full control over projects, environments, users and groups.
-
-Read more in our [documentation](https://docs.lagoon.sh/lagoon/administering-lagoon/graphql-queries).
+Lagoon has a highly configurable idling capability, allowing for development environments to be idled when not in use, and automatically un-idled when required.

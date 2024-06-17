@@ -97,11 +97,11 @@ subtitle = "Find the examples, documentation and more here:"
 
   [[rows.values]]
     icon = "fab fa-github-square"
-    url = "https://www.github.com/lagoon-examples/wordpress-base"
+    url = "https://github.com/lagoon-examples/laravel-example-simple"
 
   [[rows.values]]
     icon = "fas fa-book"
-    url = "https://docs.lagoon.sh/applications/wordpress"
+    url = "https://docs.lagoon.sh/applications/laravel"
 
 [[rows]]
   [[rows.values]]
