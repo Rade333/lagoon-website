@@ -87,6 +87,11 @@ uglyurls = false
   weight = 30
 
 [[menu.main]]
+  url = "/laravel/"
+  name = "Lagoon Loves Laravel"
+  weight = 30
+
+[[menu.main]]
   url = "https://docs.lagoon.sh"
   name = "Docs"
   weight = 40

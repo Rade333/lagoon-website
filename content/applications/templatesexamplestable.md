@@ -1,7 +1,7 @@
 +++
 fragment = "table"
 #disabled = false
-date = "2022-07-25"
+date = "2024-06-11"
 weight = 200
 background = "light"
 align = "right"
@@ -78,6 +78,30 @@ subtitle = "Find the examples, documentation and more here:"
   [[rows.values]]
     icon = "fas fa-book"
     url = "https://docs.lagoon.sh/applications/wordpress"
+
+[[rows]]
+  [[rows.values]]
+    header = "Laravel"
+
+  [[rows.values]]
+    text = "Application"
+
+  [[rows.values]]
+    text = "PHP"
+
+  [[rows.values]]
+    text = "Example Project"
+
+  [[rows.values]]
+    text = "Maintained"
+
+  [[rows.values]]
+    icon = "fab fa-github-square"
+    url = "https://github.com/lagoon-examples/laravel-example-simple"
+
+  [[rows.values]]
+    icon = "fas fa-book"
+    url = "https://docs.lagoon.sh/applications/laravel"
 
 [[rows]]
   [[rows.values]]
@@ -259,4 +283,3 @@ subtitle = "Find the examples, documentation and more here:"
 
 +++
 ## Table of supported Applications, Languages and Frameworks {#Table}
-

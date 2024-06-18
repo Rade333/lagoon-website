@@ -1,7 +1,7 @@
 +++
 fragment = "lagooncon"
-disabled = false
-date = "2024-01-11"
+disabled = true
+date = "2024-06-11"
 weight = 0
 background = "secondary"
 +++
