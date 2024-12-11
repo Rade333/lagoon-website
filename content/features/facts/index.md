@@ -8,7 +8,7 @@ title = "Facts"
 #subtitle = ""
 title_align = "left"
 
-summary = """Lagoon has a range of tools that can compute and collect information from environments,such as application or package versions, current states or statuses.  These facts can be used to filter or sort projects and environments."""
+summary = """Lagoon has a range of tools that can compute and collect information from environments, such as application or package versions, current states or statuses. These facts can be used to filter or sort projects and environments."""
 
 [sidebar]
   align = "right"
