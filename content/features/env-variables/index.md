@@ -4,7 +4,7 @@ weight = 100
 #background = ""
 categories = ["Released"]
 
-title = "Enviroment Variables"
+title = "Environment Variables"
 #subtitle = ""
 title_align = "left"
 
